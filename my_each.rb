@@ -6,7 +6,7 @@ def my_each(array)
   while i < array.length
   #grab value at [i]
     yield(array[i])
-    
+    increment value of [i]
     i = i + 1
   end
  
