@@ -2,9 +2,11 @@ def my_each(array)
   #set our counter variable
   i = 0
  
- #only run while l
+ #only run while i is less than array length
   while i < array.length
+  #grab value at [i]
     yield(array[i])
+    
     i = i + 1
   end
  
